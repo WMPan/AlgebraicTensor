@@ -1,5 +1,5 @@
 # AlgebraicTensor
-t is about A standard way to represent sparse tensor which is inspired by real word APIs in popular DL Frameworks.
+It is about A standard way to represent sparse tensor which is inspired by real word APIs in popular DL Frameworks.
 It is also about An approach to use sparse data in GPU, TPU and other AI accelerators. That is a theory about how we can use sparse data parallelly in AI accelerators.
 # ScatterX
 Currently, There are two Ways of Storing a Sparse Tensor in DL Frameworks , such as TensorFlow and pyTorch . The first way is to Use an Index List and a Value List (like sparse matrix), and the second way is to Use an index Tensor and a Value Tensor as used in scatter APIs of TensorFlow and pyTorch.
